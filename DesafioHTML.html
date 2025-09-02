@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML Dio.io</title>
+</head>
+<body>
+    <header>
+        <H1>Módulo 1 - Primeiros Passos com HTML</H1>
+        <hr>
+        <nav>
+            <h2 id="Início">Índice</h2>
+            <ul>
+                <li><a href="#Historia">História dos computadores</a></li>
+                <li><a href="#Oquesao">O que são <i>Clients</i>?</a></li>
+                <li><a href="#OquesaoS">Oque são <i>Servers</i>?</a></li>
+                <li><a href="#Comoé">Como é uma estrutura básica de um HTML?</a></li>
+                <li><a href="#Entendendo">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+                <li><a href="#Links">Links de referências</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h2 id="Historia">História dos computadores</h2> <small><a href="#Início">Voltar ao Início</a></small>
+        <p>A história dos computadores, na real, é a história da gente tentando facilitar a vida com os <strong>cálculos</strong>. A coisa começou lá no século XIX, com um cara <u>muito à frente do seu tempo</u> chamado <a href="https://pt.wikipedia.org/wiki/Charles_Babbage">Charles Babbage</a>. Ele teve a ideia de criar uma máquina mecânica gigante, movida a vapor, para fazer contas. O projeto nunca ficou pronto, mas por essa ideia ele é considerado o <strong>pai do computador</strong>.</p>
+<p>A coisa só andou de verdade na <strong>Segunda Guerra Mundial</strong>, quando a necessidade de decifrar códigos e fazer cálculos militares explodiu. Foi aí que nasceu a <i>primeira geração</i> de computadores. Essas máquinas eram <u>monstruosas</u>. O <a href="https://pt.wikipedia.org/wiki/ENIAC">ENIAC</a>, por exemplo, pesava mais de 27 toneladas, ocupava uma sala inteira e tinha <i>milhares de válvulas</i> que queimavam o tempo todo! A energia que ele consumia daria para acender as luzes de um bairro. E a pior parte: para programar, os operadores tinham que trocar cabos, tipo um <i>enorme painel telefônico</i>. Era um pesadelo.</p>
+<p>A grande virada veio com a invenção do <a href="https://pt.wikipedia.org/wiki/Transistor">transistor</a>, um componente eletrônico menor, mais rápido e mais confiável que a velha válvula. Depois, os caras inventaram o <a href="https://pt.wikipedia.org/wiki/Circuito_integrado">circuito integrado</a>, o famoso <i>chip</i>. Eles descobriram como colocar milhares de transistores em uma única "pedrinha" de silício. Foi o que permitiu que os computadores começassem a encolher e ficassem cada vez mais poderosos.</p>
+<p>Até o final dos anos 70, computador era coisa de cientista e de empresa gigante. Mas aí, a <a href="https://pt.wikipedia.org/wiki/Apple">Apple</a> e a <a href="https://pt.wikipedia.org/wiki/IBM">IBM</a> entraram na jogada. A sacada foi: "e se a gente fizer um computador que o cara possa comprar para ter em casa?". Eles criaram o conceito de <strong>computador pessoal</strong>. O <a href="https://pt.wikipedia.org/wiki/Apple_II">Apple II</a> e, principalmente, o <a href="https://pt.wikipedia.org/wiki/IBM_PC">IBM PC</a> popularizaram a ideia. Foi o que abriu caminho para a indústria que a gente conhece hoje.</p>
+<p>Para fechar, a revolução <u>final</u> foi a <a href="https://pt.wikipedia.org/wiki/Internet">internet</a>. A partir dos anos 90, os computadores deixaram de ser ilhas isoladas. Eles se conectaram. O PC na sua mesa virou uma janela para o mundo. O resto a gente viveu: e-mail, redes sociais, streaming... Tudo é resultado dessa conexão.</p>
+<p>E a evolução não parou. Hoje, o poder de processamento daquele ENIAC, que era do tamanho de um ginásio, cabe no seu bolso.</p>
+<hr>
+
+        <h2 id="Oquesao">Oque são <i>Clients</i>?</h2> <small><a href="#Início">Voltar ao Início</a></small>
+        <p>Imagina que o conceito de **client-servidor** é como a sua rotina em um restaurante. O <u>cliente</u> é <i>você</i>, sentado à mesa, pedindo a comida. O servidor é a <i>cozinha</i> do restaurante, que pega o seu pedido, prepara a comida e a devolve para você. Simples, né?</p>
+<p>Na informática, o **cliente** é o dispositivo ou o programa que <strong>solicita</strong> uma informação ou um serviço. É a ponta que está mais perto do usuário, a parte que você interage diretamente. Ele faz o pedido, e espera a resposta de outro "computador" ou "programa".</p>
+
+<p>O cliente faz a <a href="https://pt.wikipedia.org/wiki/Requisi%C3%A7%C3%A3o">requisição</a> para o **servidor**, que é quem de fato armazena a informação ou executa a tarefa. O servidor processa o pedido e envia a <a href="https://pt.wikipedia.org/wiki/Resposta">resposta</a> de volta para o cliente, que então exibe o resultado de um jeito que você consiga entender.</p>
+
+<p>Quer alguns exemplos do dia a dia?</p>
+<ul>
+    <li>Quando você abre o <a href="https://pt.wikipedia.org/wiki/Google_Chrome">navegador</a> (Chrome, Firefox, Edge) para acessar um site, o <u>navegador é o cliente</u>, e o computador onde o site está hospedado é o <strong>servidor</strong>.</li>
+    <li>No seu celular, o aplicativo do banco é o <u>cliente</u>, e os computadores do banco, que guardam seus dados, são os <strong>servidores</strong>.</li>
+    <li>Em jogos online, o jogo rodando no seu computador é o <u>cliente</u>, e os computadores que gerenciam a partida são os <strong>servidores</strong>.</li>
+</ul>
+
+<p>Em resumo, o cliente é o "front-end", a interface que lida com o usuário, enquanto o servidor é o "back-end", a parte que faz o trabalho pesado e que, na maioria das vezes, você nem vê.</p>
+<hr>
+
+        <h2 id="OquesaoS">Oque são <i>Servers</i>?</h2> <small><a href="#Início">Voltar ao início</a></small>
+        <p>Se o cliente é você pedindo a comida no restaurante, o **servidor** é <u>todo o sistema da cozinha</u>. Ele é o responsável por pegar o seu pedido, processá-lo e te entregar o que você pediu. Em termos simples, o <a href="https://pt.wikipedia.org/wiki/Servidor_(inform%C3%A1tica)">servidor</a> é a máquina que <i>"serve"</i> a informação que você precisa.</p>
+<p>Na informática, o **servidor** é um <a href="https://pt.wikipedia.org/wiki/Computador">computador</a> (ou um programa) que <strong>armazena</strong>, gerencia e fornece dados ou serviços para outros computadores. Ele fica ligado 24/7, aguardando as requisições dos clientes. Quando um cliente (seu navegador, por exemplo) pede algo, o servidor responde a esse pedido.</p>
+<p>O servidor é a espinha dorsal de qualquer site ou serviço online. Sem eles, a <a href="https://pt.wikipedia.org/wiki/Internet">internet</a> simplesmente não funcionaria. Eles são construídos para serem <u>extremamente confiáveis e poderosos</u>, capazes de lidar com milhares ou até milhões de pedidos ao mesmo tempo.</p>
+<p>Vamos usar os mesmos exemplos, mas agora focando na parte do servidor:</p>
+<ul>
+    <li>Quando você acessa um site, o <u>computador onde o site está hospedado é o servidor</u>. Ele recebe seu pedido e envia os arquivos do site para o seu navegador.</li>
+    <li>No seu celular, os computadores do banco que guardam seus dados são os <strong>servidores</strong>. Eles processam sua solicitação de saldo e te enviam a resposta com o valor.</li>
+    <li>Em jogos online, os computadores que gerenciam a partida são os <u>servidores</u>, garantindo que a experiência seja suave para todos os jogadores.</li>
+</ul>
+<p>Em resumo, o <a href="https://pt.wikipedia.org/wiki/Cliente_(computa%C3%A7%C3%A3o)">cliente</a> é o "front-end", a parte que você usa para fazer o pedido, enquanto o servidor é o "back-end", a parte que faz o trabalho pesado e que está sempre pronta para responder a um pedido.</p>
+<hr>
+
+        <h2 id="Comoé">Como é uma estrutura básica de um <i>HTML</i>?</h2> <small><a href="#Início">Voltar ao Início</a></small>
+        <p>Imagine o <a href="https://pt.wikipedia.org/wiki/HTML">HTML</a> como a planta de uma casa. Ele não lida com a decoração ou a cor das paredes, mas define a estrutura: onde ficam as paredes, as portas e as janelas. Um documento HTML tem uma estrutura <u>bem simples</u> e <i>fixa</i>, que qualquer navegador consegue entender.</p>
+<p>O esqueleto básico de todo documento HTML é assim:</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Título da Minha Página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- O conteúdo visível da página vai aqui --&gt;
+    <h1>Olá, Mundo!</h1>
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>Vamos entender cada uma das partes principais:</p>
+<ul>
+    <li>O <code>&lt;!DOCTYPE html&gt;</code> é a primeira linha e a mais importante. Ela informa ao navegador que o documento foi escrito em <a href="https://pt.wikipedia.org/wiki/HTML5">**HTML5**</a>, garantindo que ele seja renderizado corretamente.</li>
+    <li>A tag <code>&lt;html&gt;</code> é o elemento principal que engloba todo o conteúdo da página. O atributo <code>lang="pt-BR"</code> serve para indicar o idioma do documento.</li>
+    <li>A tag <a href="https://pt.wikipedia.org/wiki/Head_(HTML)"><code>&lt;head&gt;</code></a> é a parte do documento com informações <strong>invisíveis</strong> para o usuário, mas essenciais para o navegador. É onde definimos o <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/title">título</a> da página (tag <code>&lt;title&gt;</code>) e a <a href="https://pt.wikipedia.org/wiki/Meta_tag">codificação de caracteres</a> (<code>&lt;meta charset="UTF-8"&gt;</code>).</li>
+    <li>A tag <a href="https://pt.wikipedia.org/wiki/Body_(HTML)"><code>&lt;body&gt;</code></a> é o <u>corpo</u> da página. É aqui que você insere todo o conteúdo que o usuário vai ver, como textos, imagens, botões e links.</li>
+</ul>
+<p>Em resumo, o HTML é a estrutura fundamental da página. Sem essa base, <strong>nada funciona</strong>. O <code>head</code> armazena as informações técnicas, enquanto o <code>body</code> contém o que é visível e interativo para o usuário.</p> 
+<hr>
+
+            <h2 id="Entendendo">Entendendo a diferença entre <i>listas ordenadas e não ordenadas</i></h2> <small><a href="#Início">Voltar ao Início</a></small>
+            <p>Em <a href="https://pt.wikipedia.org/wiki/HTML">HTML</a>, as listas são uma forma fundamental de organizar conteúdo. Existem dois tipos principais, e a diferença entre eles é <u>super simples</u>: um é para itens que não precisam de uma ordem específica, e o outro é para os que precisam.</p>
+
+<h3>Listas Não Ordenadas (Unordered Lists)</h3>
+<p>Essas listas usam a tag <code>&lt;ul&gt;</code> (que vem de "unordered list") e são ideais para itens que <strong>não precisam seguir uma sequência</strong>. Cada item da lista é marcado com a tag <code>&lt;li&gt;</code> (de "list item"), e o navegador mostra cada item como um ponto ou um marcador similar. É o tipo de lista que você usaria para listar os ingredientes de uma receita ou os tópicos de uma reunião.</p>
+<pre><code>&lt;ul&gt;
+  &lt;li&gt;Maçã&lt;/li&gt;
+  &lt;li&gt;Banana&lt;/li&gt;
+  &lt;li&gt;Laranja&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h3>Listas Ordenadas (Ordered Lists)</h3>
+<p>Essas listas usam a tag <code>&lt;ol&gt;</code> (que vem de "ordered list") e são perfeitas para itens que <i>precisam de uma sequência</i> ou ordem. Novamente, a tag <code>&lt;li&gt;</code> é usada para cada item da lista, mas o navegador os numera automaticamente (1, 2, 3...) ou usa letras (a, b, c...), dependendo do estilo que você definir. Use essa lista para descrever os passos de um tutorial ou os rankings de um jogo.</p>
+<pre><code>&lt;ol&gt;
+  &lt;li&gt;Passo 1: Ferva a água.&lt;/li&gt;
+  &lt;li&gt;Passo 2: Adicione o macarrão.&lt;/li&gt;
+  &lt;li&gt;Passo 3: Sirva o prato.&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+
+<p>Em resumo, o que realmente muda é a tag principal: use <strong>&lt;ul&gt;</strong> para os itens que não importam a ordem (pontos) e <strong>&lt;ol&gt;</strong> para os que precisam de uma ordem (números).</p>
+
+            
+<hr>
+    </main> 
+    <footer>
+        <h2 id="Links">Links de referências</h2> <small><a href="#Início">Voltar ao Início</a></small>
+            <p>Aqui estão todos os links que abordamos nos tópicos anteriores, organizados por tema para sua referência:</p>
+
+    <h3>História dos Computadores</h3>
+    <ul>
+        <li><a href="https://pt.wikipedia.org/wiki/Charles_Babbage" target="_blank">Charles Babbage</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/ENIAC" target="_blank">ENIAC</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Transistor" target="_blank">Transistor</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Circuito_integrado" target="_blank">Circuito Integrado</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Apple" target="_blank">Apple</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/IBM" target="_blank">IBM</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Apple_II" target="_blank">Apple II</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/IBM_PC" target="_blank">IBM PC</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Internet" target="_blank">Internet</a></li>
+    </ul>
+
+    <h3>O que são Clients?</h3>
+    <ul>
+        <li><a href="https://pt.wikipedia.org/wiki/Cliente_(computa%C3%A7%C3%A3o)" target="_blank">Cliente (computação)</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Servidor_(computa%C3%A7%C3%A3o)" target="_blank">Servidor (computação)</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/URL" target="_blank">URL</a></li>
+    </ul>
+
+    <h3>O que são Servers?</h3>
+    <ul>
+        <li><a href="https://pt.wikipedia.org/wiki/Servidor_(computa%C3%A7%C3%A3o)" target="_blank">Servidor (computação)</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Cliente_(computa%C3%A7%C3%A3o)" target="_blank">Cliente (computação)</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Internet" target="_blank">Internet</a></li>
+    </ul>
+
+    <h3>Estrutura Básica de um HTML</h3>
+    <ul>
+        <li><a href="https://pt.wikipedia.org/wiki/HTML" target="_blank">HTML</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/HTML5" target="_blank">HTML5</a></li>
+        <li><a href="https://www.google.com/search?q=https://pt.wikipedia.org/wiki/Head_(HTML)" target="_blank">head (HTML)</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/title" target="_blank">title</a></li>
+        <li><a href="https://www.google.com/search?q=https://pt.wikipedia.org/wiki/Meta_tag" target="_blank">meta tag</a></li>
+        <li><a href="https://www.google.com/search?q=https://pt.wikipedia.org/wiki/Body_(HTML)" target="_blank">body (HTML)</a></li>
+    </ul>
+
+    <h3>Listas Ordenadas e Não Ordenadas</h3>
+    <ul>
+        <li><a href="https://pt.wikipedia.org/wiki/HTML" target="_blank">HTML</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/ul" target="_blank">Listas Não Ordenadas (ul)</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/ol" target="_blank">Listas Ordenadas (ol)</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li" target="_blank">List Item (li)</a></li>
+    </ul>
+<small><a href="#Início">Voltar ao Início</a></small>
+<p>&copy; Desenvolvido por JoaoJohnnesDev</p></footer>
+</body>
+</html>
